@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Logger</title>
+    <meta name="description" content="searches youtube videos and allows for note taking on timestamps" />
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html">Video Logger</a></h1>
+    </header>
+    <div class="search-bar">
+      <form id="query">
+        <p><input type="text" id="search" placeholder="Search..." class="form-control" /></p>
+        <p><input type="submit" value="Search" class="form-control-btn" /></p>
+      </form>
+      <div id="results"></div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=init"></script>
+  </body>
+</html>
